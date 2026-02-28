@@ -1,32 +1,32 @@
 name: zhuanyemuqian
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 5/6 * * *'
+    - cron: '0 3/6 * * *'
 
-jobs:  # 18043
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhuanyemuqian
         env:
-          cu9013: ${{ secrets.cu9013 }}
+          hlz39616: ${{ secrets.hlz39616 }}
         run: |
-          echo $cu9013 | jq -r .qdm8322 | /bin/bash
-          echo $udyx001 | jq -r .gyks23906 | /bin/bash
-          echo $gpv0377 | jq -r .szbng46509 | /bin/bash
-          echo $zp58 | jq -r .pui340 | /bin/bash
-          echo $lgtyc8913 | jq -r .om98 | /bin/bash
-          echo $f01 | jq -r .wyi52 | /bin/bash
-          echo $b61 | jq -r .e2806 | /bin/bash
-          echo $ds926 | jq -r .pmy05730 | /bin/bash
-          echo $tlbe9 | jq -r .v07163 | /bin/bash
-          echo $mlt807 | jq -r .gt8 | /bin/bash
-          echo $gj25 | jq -r .bd16368 | /bin/bash
-          echo $hyf623 | jq -r .z168 | /bin/bash
-          echo $wde3 | jq -r .vdqyg77719 | /bin/bash
-          echo $r698 | jq -r .mhu17 | /bin/bash
-          echo $u3567 | jq -r .nuiu901 | /bin/bash
-          echo $ge50 | jq -r .o1546 | /bin/bash
+          echo $hlz39616 | jq -r .yr701 | /bin/bash
+          echo $dsy8 | jq -r .on5790 | /bin/bash
+          echo $qu37227 | jq -r .r9955 | /bin/bash
+          echo $x2666 | jq -r .ayb7481 | /bin/bash
+          echo $yi762 | jq -r .wvqul688 | /bin/bash
+          echo $qoj265 | jq -r .wcao5 | /bin/bash
+          echo $n162 | jq -r .srdmk018 | /bin/bash
+          echo $zg74 | jq -r .k29247 | /bin/bash
+          echo $gatjf9 | jq -r .ec3761 | /bin/bash
+          echo $jh07 | jq -r .mf35 | /bin/bash
+          echo $axq45 | jq -r .r9 | /bin/bash
+          echo $h1 | jq -r .jugns52 | /bin/bash
+          echo $nbkrj289 | jq -r .kk019 | /bin/bash
+          echo $lkw86143 | jq -r .vdgd3883 | /bin/bash
 
